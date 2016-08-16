@@ -1,6 +1,6 @@
 <?php
 
-namespace cev\Justifier;
+namespace Cev\Justifier;
 
 /**
  * Class StringJustifier
