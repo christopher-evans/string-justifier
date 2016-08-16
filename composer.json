@@ -1,0 +1,30 @@
+{
+  "name": "christopher-evans/string-justifier",
+  "description": "A PHP 5.3+ library for justifying strings.",
+  "type": "library",
+  "keywords": ["string", "justify"],
+  "homepage": "https://github.com/christopher-evans/string-justifier",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christopher Evans",
+      "email": "c.m.evans@gmx.co.uk"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/christopher-evans/string-justifier/issues",
+    "source": "https://github.com/christopher-evans/string-justifier"
+  },
+  "require": {
+    "php": ">=5.3"
+  },
+  "suggest": {
+    "ext-mbstring": "For best performance",
+    "symfony/polyfill-mbstring": "If you can't install ext-mbstring"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cev\\Justifier\\": "src/"
+    }
+  }
+}
