@@ -10,7 +10,7 @@ $string = <<<EOF
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et tempor velit, vitae porttitor mauris. Phasellus fermentum dignissim nulla quis eleifend. Praesent vestibulum diam nisi, non egestas enim aliquam sit amet. Etiam consequat ipsum risus. Duis quis urna velit. Vivamus condimentum bibendum felis sed tempor. Suspendisse consectetur nibh vel odio bibendum euismod. Cras vehicula aliquam leo, quis laoreet nunc tincidunt quis.
 EOF;
 
-$justifier = new \Cev\StringJustifier(
+$justifier = new \Cev\Justifier\StringJustifier(
     "\n", //line separator
     "-", //indicate word break
     "\n\n" //paragraph separator
